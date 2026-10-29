@@ -1,10 +1,10 @@
 @echo off
 rem ==================================================================
 rem AMPE - Directory Inventory
-rem Version: 1.2
+rem Version: 1.3
 rem Publisher: AMPE
-rem Source code: https://github.com/ampe-dev/ampe-tools/blob/main/server-inventory/ampe_inventory.cmd
-rem Description: https://github.com/ampe-dev/ampe-tools/tree/main/server-inventory
+rem Source code: https://github.com/ampe-dev/ampe-tools
+rem Description: see README.md in the repository
 rem Purpose: list files/folders, sizes and modification dates.
 rem No network requests. Does not copy, alter or delete source files.
 rem ==================================================================
@@ -14,7 +14,7 @@ set "SOURCE=%~dp0."
 set "OUTPUT=%~dp0ampe_inventory.txt"
 set "DEST=%TEMP%\AMPE_INVENTORY_LIST_%RANDOM%_%RANDOM%"
 
-echo AMPE - Directory Inventory v1.2
+echo AMPE - Directory Inventory v1.3
 echo Source: "%SOURCE%"
 echo Report: "%OUTPUT%"
 echo.
